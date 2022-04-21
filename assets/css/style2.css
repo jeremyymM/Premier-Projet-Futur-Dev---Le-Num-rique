@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*******************************TOP NAVBAR**************************************/
+body{
+    overflow-x: hidden;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background: black;
+}
+#logo img{
+    width: 50px;
+    height: 50px;
+}
+nav > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+nav > ul > li {
+    list-style-type: none;
+    margin: 0px 10px;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.none{
+    display: none !important;
+}
+.fa-bars{
+    display: none;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+.fa-xmark{
+    font-size: 1.4rem;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+#mobileNavArea{
+    overflow: hidden;
+    width: 100%;
+    height: 0px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all 0.2s ease 0s;
+}
+.openNav{
+    height: 300px !important;
+}
+#mobileNavArea > ul > li {
+    list-style-type: none;
+    margin: 10px 0px;
+    
+}
+#mobileNavArea > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    
+}
+
+#backgroundbig{
+    background: url("../images/ecran.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    width: 50%;
+    
+}
+
+
+.BigData{
+    display: flex;
+    color: #fff;
+    justify-content: right;
+    
+}
+.BigData li{
+    list-style-type: none;
+    line-height: 40px;
+}
+.BigData span{
+    font-weight: 600;
+}
+#BigData{
+    background: #00161E;
+    background-size: cover;
+    background-position: left;
+    width: 58%;
+    min-height: 100vh;
+    
+}
+#bigdatatitle{
+    font-size: 4vh;
+    line-height: 60px;
+    margin-bottom: 71px;
+    margin-left: 10px;
+    text-shadow: 25px 23px 3px rgba(255, 255, 255, 0.25);
+
+}
+#paragraphebigdata{
+    font-size: 1.2vw;
+    width: 80%;
+    line-height: 30px;
+}
+#troisvtitle{
+    font-size: 2vw;
+    width: 80%;
+    line-height: 80px;
+}
+#lestroisv{
+    font-size: 1.2vw;
+    width: 80%;
+    line-height: 24px;
+}
+
+#metierbigdata{
+    font-size: 1.2vw;
+    width: 80%;
+    line-height: 24px;
+}
+#metiertitle{
+    font-size: 2vw;
+    width: 80%;
+    line-height: 80px;
+}
+
+
+
+    
+
+/********************************************NAV FOOTER******************************************/
+footer{
+    background: #000;
+    width: 100%;
+    height: 50vh;
+}
+footer > .topPart{
+    width: 100%;
+    height: 10vh;
+    background: #252525;
+}
+footer > .topPart > ul{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+}
+footer > .topPart > ul > li{
+   list-style-type: none;
+   margin: 0px 10px;
+}
+footer > .topPart > ul > li > a{
+   color: #fff;
+   text-decoration: none;
+   font-size: 1.2rem;
+}
+footer > .subPart{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+@media screen and (max-width:1050px) {
+    nav > ul {
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+}
+#Contact a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+#Contact li{
+    list-style-type: none;
+}
+#Contact{
+    font-size: 2vh;
+    line-height: 30px;
+    margin: 20px;
+}
+#reseau a{
+    text-decoration: none;
+    color: #fff;
+      
+}
+#reseau li{
+    list-style-type: none;
+}
+#reseau{
+    font-size: 2vh;
+    line-height: 30px;
+    margin-left: 80%;
+    margin-right: 10%;
+}
+#copyright{
+    font-size: 2.5vh;
+    position: absolute;
+    margin: 42%;
+    width: 30%;
+    margin-top: 61%;
+}
+#logo{
+    cursor: pointer;
+}

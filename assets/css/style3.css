@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*******************************TOP NAVBAR**************************************/
+body{
+    overflow-x: hidden;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background: black;
+}
+#logo img{
+    width: 50px;
+    height: 50px;
+}
+nav > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+nav > ul > li {
+    list-style-type: none;
+    margin: 0px 10px;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.none{
+    display: none !important;
+}
+.fa-bars{
+    display: none;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+.fa-xmark{
+    font-size: 1.4rem;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+#mobileNavArea{
+    overflow: hidden;
+    width: 100%;
+    height: 0px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all 0.2s ease 0s;
+}
+.openNav{
+    height: 300px !important;
+}
+#mobileNavArea > ul > li {
+    list-style-type: none;
+    margin: 10px 0px;
+    
+}
+#mobileNavArea > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    
+}
+#backgroundgame{
+    background: url("../images/jeux.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+}
+#gametitle{
+    margin-top: 30px;
+    margin-left: 131px;
+    font-size: 4vh;
+    font-weight: 800;
+    width: 31%;
+    text-shadow: 25px 28px 4px rgba(0, 0, 0, 0.25);
+}
+#paragraphe{
+    position: absolute;
+    margin-top: 318px;
+    margin-right: 342px;
+    width: 29%;
+    font-size: 1.3vw;
+    margin-left: 283px;
+}
+#paragraphe span{
+    font-weight: 800;
+
+}
+#title1{
+    position: absolute;
+    margin-top: 467px;
+    margin-right: 342px;
+    width: 29%;
+    font-size: 1.3vw;
+    margin-left: 283px;
+    font-weight: 800;
+}
+#liste{
+    position: absolute;
+    margin-top: 557px;
+    margin-right: 342px;
+    width: 29%;
+    font-size: 1.3vw;
+    margin-left: 291px;
+}
+#liste li{
+    list-style-type: none;
+    line-height: 30px;
+}
+#titlejob{
+    position: absolute;
+    margin-top: 425px;
+    margin-right: 342px;
+    width: 30%;
+    font-size: 1.3vw;
+    margin-left: 786px;
+    font-weight: 800;  
+}
+#liste2{
+    position: absolute;
+    margin-top: 497px;
+    margin-right: 342px;
+    width: 30%;
+    font-size: 1.3vw;
+    margin-left: 786px;
+}
+#liste2 li{
+    list-style-type: none;
+    line-height: 35px;
+}
+#liste2 span{
+    font-weight: bold;
+}
+/********************************************NAV FOOTER******************************************/
+footer{
+    background: #000;
+    width: 100%;
+    height: 50vh;
+}
+footer > .topPart{
+    width: 100%;
+    height: 10vh;
+    background: #252525;
+}
+footer > .topPart > ul{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+}
+footer > .topPart > ul > li{
+   list-style-type: none;
+   margin: 0px 10px;
+}
+footer > .topPart > ul > li > a{
+   color: #fff;
+   text-decoration: none;
+   font-size: 1.2rem;
+}
+footer > .subPart{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+@media screen and (max-width:1050px) {
+    nav > ul {
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+}
+#Contact a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+#Contact li{
+    list-style-type: none;
+}
+#Contact{
+    font-size: 2vh;
+    line-height: 30px;
+    margin: 20px;
+}
+#reseau a{
+    text-decoration: none;
+    color: #fff;
+      
+}
+#reseau li{
+    list-style-type: none;
+}
+#reseau{
+    font-size: 2vh;
+    line-height: 30px;
+    margin-left: 80%;
+    margin-right: 10%;
+}
+#copyright{
+    font-size: 2.5vh;
+    position: absolute;
+    margin: 42%;
+    width: 30%;
+    margin-top: 61%;
+}
+#logo{
+    cursor: pointer;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <nav id="nav">
+        <h2 id="logo"><img src="assets/images/onlylogo.png"></h2>
+        <ul>
+            
+            <li><a href="page1.html">Internet</a></li>
+            <li><a href="page2.html">Big data</a></li>
+            <li><a href="page3.html">Les jeux vidéo</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <i class="fa-solid fa-bars" id="burger"></i>
+        <i class="fa-solid fa-xmark none" id="closeNav"></i>
+    </nav>
+    <div id="mobileNavArea" class="none">
+        <ul>
+            
+            <li><a href="#">Internet</a></li>
+            <li><a href="#">Big data</a></li>
+            <li><a href="#">Les jeux vidéo</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+
+    <header>
+        <div class="bgHeader"></div>
+        <div class="contentHeader">
+            <h1 id="titleh1">
+                Les Métiers du Numérique
+            </h1>
+            <p id="paragraphe">
+                Le <span>numérique</span> est un monde si vaste que de nouveaux métiers voient le jour chaques années. Nous allons nous aventurer dans ces différents secteurs pour en apprendre plus sur ceux-ci ainsi que les métiers qui les composent.
+            </p>
+        </div>
+    </header>
+
+
+    <section id="cta">
+        <div id="internetBtn" class="bigBtn"><h2>Internet</h2></div>
+        <div id="bigDataBtn" class="bigBtn"><h2>Big Data</h2></div>
+        <div id="gameBtn" class="bigBtn"><h2>Jeux vidéos</h2></div>
+    </section>
+
+
+    <footer>
+        <div class="topPart">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="page1.html">Internet</a></li>
+                <li><a href="page2.html">Big data</a></li>
+                <li><a href="page3.html">Les jeux vidéos</a></li>
+                
+            </ul>
+        </div>
+
+        <div class="subPart">
+            <div id="Contact">
+                <ul>
+                    <li><a href="mailto:j.mollard@codeur.online">j.mollard@codeur.online</a></li>
+                    <li><a href="tel:0679604884">Tél:0679604884</a></li>
+                </ul>
+            </div>
+            <div id="reseau">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/jeremy-mollard/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/jeremyymM" target="_blank">github</a></li>
+                </ul>    
+            </div>
+            <p id="copyright">Copyright© Jeremy Mollard</p> 
+        </div>
+        
+    </footer>
+    
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
